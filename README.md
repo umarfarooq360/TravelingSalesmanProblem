@@ -30,4 +30,4 @@ java -cp . bin/TravelingSalesmanGui
  (e.g. 0.5)
 - Muatation Probability : The probability that an individual mutates (usually low e.g. 0.01).
 
-- percent Retained : The percentage of the best population retained for the next generation. Allows us to not lose our best solution.
+- Percent Retained : The percentage of the best population retained for the next generation (e.g. 0.2). Allows us to not lose our best solutions.
