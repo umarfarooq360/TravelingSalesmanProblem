@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=
+comment0.target=TSPPopulation()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ TSPPopulation.\ Makes\ a\ random\ population\r\n\ of\ default\ size\r\n
+comment1.params=popSize
+comment1.target=TSPPopulation(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ TSPPopulation\ with\ a\ defined\ pop\ size\r\n
+comment2.params=popSize\ chromSize
+comment2.target=TSPPopulation(int,\ int)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ TSPPopulation\ with\ defined\ population\ and\ chromosome\ size\r\n
+comment3.params=genes
+comment3.target=TSPPopulation(TSPChromosome[])
+comment3.text=\r\n\ Constructor\ for\ objects\ of\ class\ TSPPopulation\ with\ defined\ population.\r\n\ This\ means\ that\ all\ the\ chromosomes\ are\ given\ and\ are\ just\ added\ to\ array\r\n
+comment4.params=old
+comment4.target=TSPPopulation\ orgy(TSPPopulation)
+comment4.text=\r\n\ This\ method\ takes\ in\ a\ population\ returns\ the\ next\ generation.\r\n\ It\ will\ keep\ the\ best\ percent\ retained\ of\ the\ old\ population\ \r\n\ but\ for\ the\ rest\ it\ will\ cross\ all\ the\ population\ depending\ on\r\n\ their\ fitness.\ It\ will\ then\ perform\ a\ muttaion\ too.\r\n
+comment5.params=
+comment5.target=void\ sortPopulation()
+comment6.params=val
+comment6.target=void\ setPercentRetained(double)
+comment7.params=val
+comment7.target=void\ setMutationProbability(double)
+comment8.params=size
+comment8.target=void\ setChromosomeSize(int)
+comment9.params=val
+comment9.target=void\ setCrossoverProbability(double)
+numComments=10
